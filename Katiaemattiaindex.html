@@ -5,171 +5,63 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mattia & Katia - 21 Giugno 2026</title>
     <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
-    
     <style>
-        :root {
-            --primary: #778a71; /* Verde Salvia */
-            --accent: #b8977e;  /* Oro/Sabbia */
-            --text: #333;
-            --bg: #fdfbf7;
-        }
-
-        body { 
-            font-family: 'Montserrat', sans-serif; 
-            background-color: var(--bg); 
-            color: var(--text); 
-            margin: 0; 
-            padding: 0; 
-            line-height: 1.6;
-        }
-
-        header { 
-            padding: 80px 20px; 
-            background: white; 
-            text-align: center;
-        }
-
-        h1 { 
-            font-family: 'Great Vibes', cursive; 
-            font-size: 4.5rem; 
-            color: var(--primary); 
-            margin: 10px 0; 
-        }
-
-        .date { 
-            font-size: 1.2rem; 
-            letter-spacing: 4px; 
-            text-transform: uppercase; 
-            color: var(--accent);
-            font-weight: 400;
-        }
-
-        .foto-sposi {
-            width: 90%;
-            max-width: 600px;
-            border-radius: 15px;
-            margin: 30px auto;
-            display: block;
-            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
-        }
-
-        section { 
-            padding: 60px 20px; 
-            max-width: 700px; 
-            margin: 0 auto; 
-            text-align: center;
-        }
-
-        .card { 
-            background: white; 
-            padding: 40px; 
-            border-radius: 20px; 
-            box-shadow: 0 4px 15px rgba(0,0,0,0.05); 
-            margin-bottom: 30px;
-        }
-
-        h2 { 
-            font-family: 'Great Vibes', cursive; 
-            font-size: 2.5rem; 
-            color: var(--primary); 
-        }
-
-        /* Stile Form */
+        :root { --primary: #778a71; --accent: #b8977e; --text: #333; --bg: #fdfbf7; }
+        body { font-family: 'Montserrat', sans-serif; background-color: var(--bg); color: var(--text); margin: 0; padding: 0; line-height: 1.6; text-align: center; }
+        header { padding: 60px 20px; background: white; border-bottom: 1px solid #eee; }
+        h1 { font-family: 'Great Vibes', cursive; font-size: 4rem; color: var(--primary); margin: 10px 0; }
+        .date { font-size: 1.2rem; letter-spacing: 4px; text-transform: uppercase; color: var(--accent); }
+        .foto-sposi { width: 90%; max-width: 500px; border-radius: 15px; margin: 30px auto; display: block; box-shadow: 0 10px 25px rgba(0,0,0,0.1); }
+        section { padding: 40px 20px; max-width: 600px; margin: 0 auto; }
+        .card { background: white; padding: 30px; border-radius: 20px; box-shadow: 0 4px 15px rgba(0,0,0,0.05); margin-bottom: 20px; }
+        h2 { font-family: 'Great Vibes', cursive; font-size: 2.5rem; color: var(--primary); margin-top: 0; }
         form { text-align: left; }
         label { display: block; margin-top: 15px; font-weight: bold; color: var(--primary); }
-        input, textarea { 
-            width: 100%; 
-            padding: 12px; 
-            margin-top: 5px; 
-            border: 1px solid #ddd; 
-            border-radius: 8px; 
-            box-sizing: border-box; 
-            font-family: inherit;
-        }
-
-        button { 
-            background: var(--primary); 
-            color: white; 
-            padding: 15px 30px; 
-            border: none; 
-            border-radius: 50px; 
-            cursor: pointer; 
-            margin-top: 25px; 
-            width: 100%; 
-            font-size: 1.1rem; 
-            transition: 0.3s;
-        }
-
-        button:hover { background: var(--accent); }
-
-        .footer { 
-            padding: 40px; 
-            background: #f4f1ec; 
-            font-size: 0.9rem;
-        }
-
+        input, textarea { width: 100%; padding: 12px; margin-top: 5px; border: 1px solid #ddd; border-radius: 8px; box-sizing: border-box; }
+        button { background: var(--primary); color: white; padding: 15px; border: none; border-radius: 50px; cursor: pointer; margin-top: 20px; width: 100%; font-size: 1.1rem; }
+        .footer { padding: 40px; background: #f4f1ec; font-size: 0.9rem; }
         a { color: var(--primary); text-decoration: none; font-weight: bold; }
     </style>
 </head>
 <body>
-
     <header>
-        <p style="letter-spacing: 2px;">FINALMENTE CI SPOSIAMO!</p>
+        <p style="letter-spacing: 2px;">IL NOSTRO MATRIMONIO</p>
         <h1>Mattia & Katia</h1>
         <div class="date">21 Giugno 2026</div>
-        
         <img src="noi.jpg" alt="Mattia e Katia" class="foto-sposi">
     </header>
 
-    <section id="location">
+    <section>
         <div class="card">
-            <h2>Il Nostro Giorno</h2>
-            <p>Siamo felici di invitarvi a festeggiare con noi!</p>
-            <p>La cerimonia e il ricevimento si terranno presso:</p>
-            <h3>Villa Scalera</h3>
-            <p>Via Francesco Petrarca, 80123 Napoli (NA)</p>
-            <a href="https://maps.app.goo.gl/3A6GvE8A3UuXW2Wj9" target="_blank">➜ Visualizza sulla mappa</a>
+            <h2>Il Ricevimento</h2>
+            <p>Vi aspettiamo per festeggiare insieme a:</p>
+            <p><strong>Villa Scalera</strong><br>Via Francesco Petrarca, Napoli</p>
+            <a href="https://maps.google.com/?q=Villa+Scalera+Napoli" target="_blank">➜ Vedi Mappa</a>
         </div>
-    </section>
 
-    <section id="rsvp">
         <div class="card">
-            <h2>Ci sarai?</h2>
-            <p>Conferma la tua presenza entro il 30 Aprile 2026</p>
-            
-            <form action="https://formspree.io/f/IL_TUO_CODICE" method="POST">
+            <h2>Conferma Presenza</h2>
+            <form action="https://formspree.io/f/MettiQuiIlTuoCodice" method="POST">
                 <label>Nome e Cognome</label>
-                <input type="text" name="nome" placeholder="Il tuo nome completo" required>
-
-                <label>Numero totale di ospiti</label>
-                <input type="number" name="numero_ospiti" min="1" value="1" required>
-
-                <label>Nomi degli accompagnatori</label>
-                <textarea name="nomi_accompagnatori" rows="2" placeholder="Indica i nomi degli altri ospiti"></textarea>
-
-                <label>Allergie o Intolleranze</label>
-                <textarea name="intolleranze" rows="2" placeholder="Segnala eventuali esigenze alimentari"></textarea>
-
+                <input type="text" name="nome" placeholder="Il tuo nome" required>
+                <label>Numero di ospiti</label>
+                <input type="number" name="ospiti" min="1" value="1" required>
+                <label>Note e Intolleranze</label>
+                <textarea name="note" rows="3" placeholder="Allergie, bimbi, etc."></textarea>
                 <button type="submit">Invia Conferma</button>
             </form>
         </div>
-    </section>
 
-    <section id="regalo">
         <div class="card">
-            <h2>Lista Nozze</h2>
-            <p>La vostra presenza è per noi il dono più prezioso. Se desiderate contribuire al nostro viaggio di nozze:</p>
-            <p style="font-size: 1.1rem;"><strong>IBAN:</strong> IT00 X 00000 00000 000000000000</p>
-            <p>Intestato a: Mattia e Katia</p>
+            <h2>Regalo</h2>
+            <p>Il vostro affetto è il dono più grande. Per chi volesse contribuire al nostro viaggio:</p>
+            <p><strong>IBAN:</strong> InserisciQuiIlTuoIban</p>
         </div>
     </section>
 
-    <div class="footer">
-        <p>Hai domande? Contattaci su WhatsApp:</p>
-        <a href="https://wa.me/393331234567">Mattia</a> &nbsp; | &nbsp; <a href="https://wa.me/393331234567">Katia</a>
-        <br><br>
-        <p>&copy; 2026 Mattia & Katia</p>
-    </div>
-
+    <footer class="footer">
+        <p>Contattaci su WhatsApp:</p>
+        <a href="https://wa.me/39tuonumero">Mattia</a> | <a href="https://wa.me/39tuonumero">Katia</a>
+    </footer>
 </body>
 </html>
